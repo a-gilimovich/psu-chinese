@@ -60,8 +60,8 @@ const MainLayout = ({children, ...props}) => {
                 <footer className={'footer'}>
                     <Networks />
                     <div className={'nav__copyright'}>
-                        <div>© 2022&ensp;</div>
-                        <div>Polotsk State University</div>
+                        <div>© 2023&ensp;</div>
+                        <div>Euphrosyne Polotskaya<br/>State University of Polotsk</div>
                     </div>
                     <Ticker />
                 </footer>
