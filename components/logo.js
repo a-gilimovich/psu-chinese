@@ -7,7 +7,7 @@ const Logo = ({hide, bigger}) => {
                 <path d="M31.8103 8.97248L15.9406 0L0 8.97248V26.987L15.9406 35.9595L31.8103 26.987V8.97248Z" fill="#282828" filter={"var(--FILTER)"}/>
             </svg>
             <div className={hide === true ? "logo__name logo__name_hide" : "logo__name"}>
-                POLOTSK<br/>STATE<br/>UNIVERSITY
+                以耶夫罗西尼波洛茨克命名的波洛茨克国立大学
             </div>
         </a></Link>
     );
