@@ -52,6 +52,7 @@ export const ELEMENTS = [
         imageURL: '/images/how-to-enter/index.webp',
         className: 'img_2',
         style: {backgroundPosition: '94% 25%'},
+        title: 'Euphrosyne Polotskaya State University',
         caption: '波洛茨克国立大学欢迎您！',
         description: ['每年我们都会遇到数百名外国留学生、他们后来成为我们最好的学生。' +
         '对于每个学生、在整个教育过程中我们都会给予最热烈的欢迎和最坚定地支持。',
@@ -152,7 +153,7 @@ export const ELEMENTS = [
         links: []
     },
     {
-        id: 8,
+        id: 7,
         name: '联系人',
         translation: 'Контакты',
         description: ['Text'],

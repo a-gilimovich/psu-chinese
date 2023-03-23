@@ -1,6 +1,7 @@
 import HomePage from "../../components/home-pages/home-page";
 import MainLayout from "../../components/layouts/main-layout";
 import Contact from "../../components/contact";
+import Head from "next/head";
 
 const Index = () => {
     return (
@@ -17,7 +18,7 @@ const Index = () => {
                             <span key={1} className={'montserrat'}>29</span>, '号、',
                             <span key={2} className={'montserrat'}>266</span>, '室、邮编：',
                             <span key={3} className={'montserrat'}>211440</span>],
-                        mail: 'o.romanov@psu.by'
+                        mail: 'y.romanovski@psu.by'
                     }}/>
                     <Contact person={{ //
                         surname: '预科',
@@ -29,7 +30,7 @@ const Index = () => {
                             <span key={2} className={'montserrat'}>229</span>, '室、',
                             <span key={3} className={'montserrat'}>235</span>, '室、邮编：',
                             <span key={4} className={'montserrat'}>211440</span>],
-                        mail: 'po@psu.by、 a.nanos@psu.by'
+                        mail: 'po@psu.by'
                     }}/>
                     <Contact person={{
                         surname: '外国公民教育中心 ',
@@ -40,7 +41,7 @@ const Index = () => {
                             <span key={1} className={'montserrat'}>29</span>, '号、',
                             <span key={2} className={'montserrat'}>348</span>, '室、邮编：',
                             <span key={3} className={'montserrat'}>211440</span>],
-                        mail: 'i.mahalinski@psu.by、 fis@psu.by'
+                        mail: 'o.zhuravskaya@psu.by、 fis@psu.by'
                     }}/>
                     <Contact person={{
                         surname: '中国办公室 ',
@@ -66,9 +67,14 @@ const Index = () => {
 
 Index.getLayout = function getLayout(page) {
     return (
-        <MainLayout>
+        <>
+            <Head>
+                <title>联系人</title>
+            </Head>
+            <MainLayout>
             {page}
         </MainLayout>
+        </>
     )
 }
 

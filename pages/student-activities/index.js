@@ -1,5 +1,6 @@
 import HomePage from "../../components/home-pages/home-page";
 import MainLayout from "../../components/layouts/main-layout";
+import Head from "next/head";
 
 const Index = () => {
     return (
@@ -9,9 +10,14 @@ const Index = () => {
 
 Index.getLayout = function getLayout(page) {
     return (
-        <MainLayout>
+        <>
+            <Head>
+                <title>学生活动</title>
+            </Head>
+            <MainLayout>
             {page}
         </MainLayout>
+        </>
     )
 }
 

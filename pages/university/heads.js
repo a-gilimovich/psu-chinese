@@ -7,18 +7,31 @@ const Index = () => {
         <div className={'heads'}>
             <h1>领导</h1>
             <div className={'heads__elements'}>
-{/*                <Person person={{ // Романов
+{                <Person person={{ // Романовский
                     src: '/images/university/heads/rector.webp',
-                    surname: '罗曼诺夫',
-                    name: '奥列格·亚历山德罗维奇',
-                    desc: '大学校长、哲学博士、教授',
+                    surname: '罗曼诺夫斯基',
+                    name: '尤里·亚森托维奇',
+                    desc: ' ',
                     phones: ['+375 214 59 95 35,', '+375 214 59 95 36'],
                     location: ['白俄罗斯维捷布斯克州新波洛茨克市、布洛希纳街',
                         <span key={1} className={'montserrat'}>29</span>, '号、',
                         <span key={2} className={'montserrat'}>266</span>, '室、邮编：',
                         <span key={3} className={'montserrat'}>211440</span>],
-                    mail: 'o.romanov@psu.by'
-                }}/>*/}
+                    mail: 'y.romanovski@psu.by'
+                }}/>}
+
+<Person person={{ // Голубева
+                    src: '/images/university/heads/golubeva.webp',
+                    surname: '戈卢别娃',
+                    name: '奥克萨娜·瓦列里耶夫娜',
+                    desc: '第一副校长、物理和数学博士、副教授',
+                    phones: ['+375 214 59 95 34,', '+375 214 59 95 36'],
+                    location: ['白俄罗斯维捷布斯克州新波洛茨克市、布洛希纳街',
+                        <span key={1} className={'montserrat'}>29</span>, '号、',
+                        <span key={2} className={'montserrat'}>266</span>, '室、邮编：',
+                        <span key={3} className={'montserrat'}>211440</span>],
+                    mail: 'o.golubeva@psu.by'
+                }}/>
 
                 <Person person={{ // Голубев
                     src: '/images/university/heads/golubev.webp',
@@ -32,19 +45,6 @@ const Index = () => {
                         <span key={2} className={'montserrat'}>262</span>, '室、邮编：',
                         <span key={3} className={'montserrat'}>211440</span>],
                     mail: 'y.golubev@psu.by'
-                }}/>
-
-                <Person person={{ // Голубева
-                    src: '/images/university/heads/golubeva.webp',
-                    surname: '戈卢别娃',
-                    name: '奥克萨娜·瓦列里耶夫娜',
-                    desc: '第一副校长、物理和数学博士、副教授',
-                    phones: ['+375 214 59 95 34,', '+375 214 59 95 36'],
-                    location: ['白俄罗斯维捷布斯克州新波洛茨克市、布洛希纳街',
-                        <span key={1} className={'montserrat'}>29</span>, '号、',
-                        <span key={2} className={'montserrat'}>266</span>, '室、邮编：',
-                        <span key={3} className={'montserrat'}>211440</span>],
-                    mail: 'o.golubeva@psu.by'
                 }}/>
 
                 <Person person={{ // Бурая

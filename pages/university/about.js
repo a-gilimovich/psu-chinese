@@ -174,7 +174,6 @@ Index.getLayout = function getLayout(page) {
     return (
         <>
             <Head>
-                <title>关于大学</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="keywords" content="关于大学, 事业统一, 个性统一, 目标统一, 社会联系, 统一的价值观, 民族团结一致, 传统与创新统一, 大学的统一一致"></meta>
                 <meta name="description" content=""></meta>

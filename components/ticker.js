@@ -3,14 +3,14 @@ import React from 'react';
 const Ticker = () => {
     return (
         <div className={"ticker"}>
-            <div>Euphrosyne Polotskaya State University of Polotsk&ensp;</div>
-            <div>Euphrosyne Polotskaya State University of Polotsk&ensp;</div>
-            <div>Euphrosyne Polotskaya State University of Polotsk&ensp;</div>
-            <div>Euphrosyne Polotskaya State University of Polotsk&ensp;</div>
-            <div>Euphrosyne Polotskaya State University of Polotsk&ensp;</div>
-            <div>Euphrosyne Polotskaya State University of Polotsk&ensp;</div>
-            <div>Euphrosyne Polotskaya State University of Polotsk&ensp;</div>
-            <div>Euphrosyne Polotskaya State University of Polotsk&ensp;</div>
+            <div>EUPHROSYNE POLOTSKAYA STATE UNIVERSITY OF POLOTSK&ensp;</div>
+            <div>EUPHROSYNE POLOTSKAYA STATE UNIVERSITY OF POLOTSK&ensp;</div>
+            <div>EUPHROSYNE POLOTSKAYA STATE UNIVERSITY OF POLOTSK&ensp;</div>
+            <div>EUPHROSYNE POLOTSKAYA STATE UNIVERSITY OF POLOTSK&ensp;</div>
+            <div>EUPHROSYNE POLOTSKAYA STATE UNIVERSITY OF POLOTSK&ensp;</div>
+            <div>EUPHROSYNE POLOTSKAYA STATE UNIVERSITY OF POLOTSK&ensp;</div>
+            <div>EUPHROSYNE POLOTSKAYA STATE UNIVERSITY OF POLOTSK&ensp;</div>
+            <div>EUPHROSYNE POLOTSKAYA STATE UNIVERSITY OF POLOTSK&ensp;</div>
         </div>
     );
 };
