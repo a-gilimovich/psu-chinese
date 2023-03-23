@@ -39,8 +39,8 @@ const PageLayout = ({children, sub, ...props}) => {
                     <div className={'nav__bot'}>
                         <Networks />
                         <div className={'nav__copyright'}>
-                            <div>© 2022&ensp;</div>
-                            <div>Polotsk State University</div>
+                            <div>© 2023&ensp;</div>
+                            <div>Euphrosyne Polotskaya State University of Polotsk</div>
                         </div>
                     </div>
                 </div>
@@ -76,8 +76,8 @@ const PageLayout = ({children, sub, ...props}) => {
                 <footer className={'footer'}>
                     <Networks />
                     <div className={'nav__copyright'}>
-                        <div>© 2022&ensp;</div>
-                        <div>Polotsk State University</div>
+                        <div>© 2023&ensp;</div>
+                        <div>Euphrosyne Polotskaya State University of Polotsk</div>
                     </div>
                     <Ticker />
                 </footer>
