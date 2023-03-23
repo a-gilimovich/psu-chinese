@@ -34,7 +34,7 @@ const MainLayout = ({children, ...props}) => {
                     <div className={'nav__bot'}>
                         <Networks />
                         <div className={'nav__copyright'}>
-                            <div>© 2022&ensp;</div>
+                            <div>© 2023&ensp;</div>
                             <div>Euphrosyne Polotskaya <br/>State University of Polotsk</div>
                         </div>
                     </div>
