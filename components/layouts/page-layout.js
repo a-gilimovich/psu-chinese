@@ -40,7 +40,7 @@ const PageLayout = ({children, sub, ...props}) => {
                         <Networks />
                         <div className={'nav__copyright'}>
                             <div>© 2023&ensp;</div>
-                            <div>Euphrosyne Polotskaya State University of Polotsk</div>
+                            <div>Euphrosyne Polotskaya<br/>State University of Polotsk</div>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ const PageLayout = ({children, sub, ...props}) => {
                     <Networks />
                     <div className={'nav__copyright'}>
                         <div>© 2023&ensp;</div>
-                        <div>Euphrosyne Polotskaya State University of Polotsk</div>
+                        <div>Euphrosyne Polotskaya<br/>State University of Polotsk</div>
                     </div>
                     <Ticker />
                 </footer>
