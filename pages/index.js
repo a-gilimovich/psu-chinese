@@ -10,7 +10,7 @@ Page.getLayout = function getLayout(page) {
     return (
         <>
             <Head>
-                <title>Polotsk State University</title>
+                <title>以耶夫罗西尼波洛茨克命名的波洛茨克国立大学</title>
                 <link rel={'icon'} href={'/favicon.svg'}/>
             </Head>
             <MainLayout>
