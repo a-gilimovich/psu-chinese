@@ -1,0 +1,23 @@
+{
+  "name": "chinese-psu",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js NODE_ENV=prodaction",
+    "start1": "next start",
+    "dev": "next dev",
+    "build": "next build && next export",
+    "build2": "next build"
+  },
+  "dependencies": {
+    "next": "12.1.5",
+    "nprogress": "^0.2.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5"
+  }
+}

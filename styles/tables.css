@@ -1,0 +1,213 @@
+/* ТАБЛИЦЫ СО СПЕЦИАЛЬНОСТЯМИ */
+
+.profession-table .montserrat {
+    line-height: 140%;
+}
+.profession-table-wrapper {
+}
+
+.profession-table-wrapper  {
+    margin-bottom: 32px;
+}
+
+.profession-table-wrapper h2 {
+    text-align: center;
+}
+
+.profession-table {
+    width: 100%;
+    overflow-x: scroll;
+    padding-bottom: 1px;
+
+    /*border-top: 1px solid var(--BORDER_COLOR_DARK);*/
+}
+
+.profession-table::-webkit-scrollbar {
+    width: 100%;
+    height: 0;
+}
+
+.profession-table::-webkit-scrollbar-track {
+    background-color: inherit;
+}
+
+.profession-table::-webkit-scrollbar-thumb {
+    background-color: var(--BORDER_COLOR_DARK);
+}
+
+.profession-table__line {
+    min-width: 578px;
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) minmax(76px, 1fr) minmax(118px, 1fr)
+        minmax(76px, 1fr) minmax(82px, 1fr) minmax(100px, 1fr);
+    grid-column-gap: 5px;
+
+    justify-items: center;
+    align-items: center;
+
+    border-bottom: 1px solid var(--BORDER_COLOR_DARK);
+}
+
+.profession-table__line_last {
+    border-bottom: none;
+}
+
+.profession-table__line_caption {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--ACCENT_COLOR);
+
+    line-height: 110%;
+    white-space: nowrap;
+}
+
+.profession-table__cell {
+    padding: 6px 9.5px;
+
+    align-self: stretch;
+    justify-self: stretch;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.profession-table__cell_dark {
+    background-color: var(--TABLE_COLOR_DARK);
+}
+
+.profession-table__cell a, .profession-table__cell a:visited {
+    color: var(--ACCENT_COLOR_2);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profession-table__cell .not-active, .profession-table__cell .not-active:visited {
+    pointer-events: none;
+    color: var(--COLOR);
+}
+
+@media (min-width: 700px) {
+    .profession-table-wrapper {
+        margin-bottom: 38px;
+    }
+
+    .profession-table__line {
+        min-width: 730px;
+        grid-template-columns: minmax(130px, 1fr) minmax(100px, 1fr) minmax(130px, 1fr)
+            minmax(100px, 1fr) minmax(100px, 1fr) minmax(130px, 1fr);
+    }
+
+    .profession-table__line_caption {
+        font-size: 24px;
+    }
+
+    .profession-table__cell {
+        padding: 7.5px 11px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .profession-table-wrapper {
+        margin-bottom: 26px;
+    }
+
+    .profession-table__line {
+        min-width: auto;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .profession-table__line_caption {
+        font-size: 18px;
+    }
+
+    .profession-table__cell {
+        padding: 5px 8px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .profession-table-wrapper {
+        margin-bottom: 32px;
+    }
+
+    .profession-table__line_caption {
+        font-size: 20px;
+    }
+
+    .profession-table__cell {
+        padding: 6px 9.5px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .profession-table-wrapper {
+        margin-bottom: 38px;
+    }
+
+    .profession-table__line_caption {
+        font-size: 24px;
+    }
+
+    .profession-table__cell {
+        padding: 7.5px 11px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .profession-table-wrapper {
+        margin-bottom: 42px;
+    }
+
+    .profession-table__line_caption {
+        font-size: 26px;
+    }
+
+    .profession-table__cell {
+        padding: 8px 12px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .profession-table-wrapper {
+        margin-bottom: 52px;
+    }
+
+    .profession-table__line_caption {
+        font-size: 30px;
+    }
+
+    .profession-table__cell {
+        padding: 10.5px 16px;
+    }
+}
+
+@media (min-width: 2400px) {
+    .profession-table-wrapper {
+        margin-bottom: 60px;
+    }
+
+    .profession-table__line_caption {
+        font-size: 38px;
+    }
+
+    .profession-table__cell {
+        padding: 10.5px 16px;
+    }
+}
+
+@media (min-width: 2400px) and (max-height: 1050px)  {
+    .profession-table-wrapper {
+        margin-bottom: 52px;
+    }
+
+    .profession-table__line_caption {
+        font-size: 30px;
+    }
+
+    .profession-table__cell {
+        padding: 12.5px 19px;
+    }
+}

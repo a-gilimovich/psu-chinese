@@ -1,0 +1,13 @@
+:root {
+    --BACKGROUND: #ffffff;
+    --COLOR: #282828;
+    --ACCENT_COLOR: #EC6B4A;
+    --ACCENT_COLOR_2: #F19F8A;
+    --BORDER_COLOR_LIGHT: #B0B0B0;
+    --BORDER_COLOR_DARK: #B1B1B1;
+    --MENU_ITEM_COLOR: #B1B1B1;
+    --TABLE_COLOR_DARK: #EDEDED;
+    --FILTER: none
+}
+
+/* Смена темы происходит посредством JS */

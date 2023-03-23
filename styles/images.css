@@ -1,0 +1,163 @@
+.img_1 {
+    background-position: right 50% top 10%;
+}
+
+.img_4 {
+    background-position: right 10%;
+}
+
+@media (min-width: 320px) {
+    .img_5 {
+        background-position: top;
+    }
+}
+
+@media (min-width: 450px) {
+    .img_1 {
+        height: 280px;
+    }
+
+    .img_2 {
+        height: 300px;
+    }
+
+    .img_4 {
+        height: 300px;
+    }
+
+    .img_6 {
+        height: 300px;
+    }
+}
+
+@media (min-width: 555px) {
+    .img_2 {
+        height: 350px;
+    }
+
+    .img_5 {
+        height: 350px;
+    }
+}
+
+@media (min-width: 615px) {
+    .img_1 {
+        height: 350px;
+    }
+
+    .img_2 {
+        height: 390px;
+    }
+
+    .img_4 {
+        background-position: center 20%;
+    }
+
+    .img_5{
+        background-position: center 20%;
+    }
+}
+
+@media (min-width: 700px) {
+    .img_1 {
+        height: 230px;
+    }
+
+    .img_2 {
+        height: 270px;
+    }
+
+    .img_4 {
+        height: 230px;
+    }
+
+    .img_5 {
+        height: 230px;
+    }
+
+    .img_6 {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 830px) {
+    .img_2 {
+        background-position: top 20%;
+        height: 275px;
+    }
+}
+
+@media (min-width: 950px) {
+    .img_1 {
+        height: 240px;
+    }
+}
+
+@media (min-width: 995px) {
+    .img_1 {
+        height: 250px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .img_1 {
+        background-position: right 40% top;
+        height: auto;
+    }
+
+    .img_2 {
+        height: auto;
+    }
+
+    .img_3 {
+        height: auto;
+    }
+
+    .img_4 {
+        height: auto;
+        background-position: center 100%;
+    }
+
+    .img_5 {
+        height: auto;
+        background-position: right;
+    }
+
+    .img_6 {
+        height: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .img_1 {
+        background-position: right 40% top;
+    }
+
+    .img_6 {
+        background-position: left;
+    }
+}
+
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1600px) {
+    
+}
+
+@media (min-width: 1920px) {
+    
+}
+
+@media (min-width: 2000px) {
+    
+}
+
+@media (min-width: 2400px) {
+    
+}
+
+@media (min-width: 2400px) and (max-height: 1050px) {
+
+}

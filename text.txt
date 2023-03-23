@@ -1,0 +1,15 @@
+
+    {
+        id: 7,
+        name: '评论',
+        translation: 'Отзывы',
+        description: ['Text'],
+        href: '/comments',
+        imageURL: '/images/how-to-enter/index.webp',
+        links: [{
+            id: 1,
+            name: '所有评论',
+            translation: 'Все отзывы',
+            href: '/comments/all'
+        },]
+    },

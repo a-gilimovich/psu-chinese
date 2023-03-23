@@ -1,0 +1,58 @@
+.list li{
+    list-style-type: none;
+    font-family: Montserrat;
+}
+@media (min-width: 1024px) {
+    .list li{
+        margin-left: 10px;
+    }
+}
+.dot-list li{
+    list-style-type: none;
+}
+.mus-test-ul{
+    padding: 0;
+    margin:0;
+}
+.museum-images{
+    display: grid;
+    grid-row-gap: 19px;
+}
+
+.museum-img{
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    .museum-images{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 19px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .museum-images{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 19px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .museum-images{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        width: 575px;
+        height: 324px;
+        float: right;
+    }
+    
+}
+
+.text-left {
+    margin-right: auto;
+}
+@media (min-width: 1600px) {
+    .text-left{
+    margin-right: 600px;
+    }
+}

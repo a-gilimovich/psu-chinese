@@ -1,0 +1,263 @@
+.comments h1 {
+    text-align: center;
+}
+
+.comments span {
+    display: inline-block;
+}
+
+.comments h2 {
+    line-height: 125%;
+}
+
+.comment-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment img {
+    width: 100%;
+}
+
+.comment {
+    margin-bottom: 32px;
+}
+
+.comment p {
+    margin-bottom: 0;
+}
+
+.small-margin {
+    margin-bottom: 8px !important;
+}
+
+@media (min-width: 700px) {
+    .comment {
+        margin-bottom: 38px;
+    }
+
+    .comments .img_with-margin img {
+        width: 275px;
+    }
+
+    .img_right {
+        float: right;
+        margin: 0 0 0 16px !important;
+    }
+
+    .img_left {
+        float: left;
+        margin: 0 16px 0 0 !important;
+    }
+
+    .small-margin {
+        margin-bottom: 19px !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .comment {
+        margin-bottom: 26px;
+    }
+
+    .comments .img_with-margin img {
+        width: 253px;
+    }
+
+    .img_right {
+        float: right;
+        margin: 0 0 0 47px !important;
+    }
+
+    .img_left {
+        float: left;
+        margin: 0 59px 0 0 !important;
+    }
+
+    .comment .h2_left {
+        position: relative;
+        left: -12px;
+    }
+
+    .small-margin {
+        margin-bottom: 8px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .comment {
+        margin-bottom: 32px;
+    }
+
+    .comments .img_with-margin img {
+        width: 247px;
+    }
+
+    .img_right {
+        float: right;
+        margin: 0 0 0 62px !important;
+    }
+
+    .img_left {
+        float: left;
+        margin: 0 76px 0 0 !important;
+    }
+
+    .comment .h2_left {
+        position: relative;
+        left: -14px;
+    }
+
+    .small-margin {
+        margin-bottom: 10px !important;
+    }
+}
+
+@media (min-width: 1440px) {
+    .comment {
+        margin-bottom: 38px;
+    }
+
+    .comments .img_with-margin img {
+        width: 296px;
+    }
+
+    .img_right {
+        float: right;
+        margin: 0 0 0 110px !important;
+    }
+
+    .img_left {
+        float: left;
+        margin: 0 126px 0 0 !important;
+    }
+
+    .comment .h2_left {
+        position: relative;
+        left: -16px;
+    }
+
+    .small-margin {
+        margin-bottom: 12px !important;
+    }
+}
+
+@media (min-width: 1600px) {
+    .comment {
+        margin-bottom: 42px;
+    }
+
+    .comments .img_with-margin img {
+        width: 329px;
+    }
+
+    .img_right {
+        float: right;
+        margin: 0 0 0 113px !important;
+    }
+
+    .img_left {
+        float: left;
+        margin: 0 131px 0 0 !important;
+    }
+
+    .comment .h2_left {
+        position: relative;
+        left: -18px;
+    }
+
+    .small-margin {
+        margin-bottom: 14px !important;
+    }
+}
+
+@media (min-width: 2000px) {
+    .comment {
+        margin-bottom: 52px;
+    }
+
+    .comments .img_with-margin img {
+        width: 495px;
+    }
+
+    .img_right {
+        float: right;
+        margin: 0 0 0 122px !important;
+    }
+
+    .img_left {
+        float: left;
+        margin: 0 142px 0 0 !important;
+    }
+
+    .comment .h2_left {
+        position: relative;
+        left: -20px;
+    }
+
+    .small-margin {
+        margin-bottom: 16px !important;
+    }
+}
+
+@media (min-width: 2400px) {
+    .comment {
+        margin-bottom: 60px;
+    }
+
+    .comments .img_with-margin img {
+        width: 595px;
+    }
+
+    .img_right {
+        float: right;
+        margin: 0 0 0 118px !important;
+    }
+
+    .img_left {
+        float: left;
+        margin: 0 140px 0 0 !important;
+    }
+
+    .comment .h2_left {
+        position: relative;
+        left: -22px;
+    }
+
+    .small-margin {
+        margin-bottom: 18px !important;
+    }
+}
+
+@media (min-width: 2400px) and (max-height: 1050px) {
+    .comment {
+        margin-bottom: 52px;
+    }
+
+    .comments .img_with-margin img {
+        width: 495px;
+    }
+
+    .img_right {
+        float: right;
+        margin: 0 0 0 122px !important;
+    }
+
+    .img_left {
+        float: left;
+        margin: 0 142px 0 0 !important;
+    }
+
+    .comment .h2_left {
+        position: relative;
+        left: -20px;
+    }
+
+    .small-margin {
+        margin-bottom: 16px !important;
+    }
+}
+
+.comment_last {
+    margin-bottom: 0;
+}
